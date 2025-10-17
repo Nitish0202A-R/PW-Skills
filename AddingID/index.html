@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav id="navbar">
+      <ul>
+        <li class="nav-item"><a href="#about" class="nav-link">About Me</a></li>
+        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-text">
+          I am a passionate web developer with experience in building responsive websites.
+        </p>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title">My Projects</h2>
+
+        <div class="projects-grid">
+          <div class="project-card">
+            <h3 class="project-title">Project 1</h3>
+            <p class="project-description">
+              A web app that helps users track their tasks.
+            </p>
+          </div>
+
+          <div class="project-card">
+            <h3 class="project-title">Project 2</h3>
+            <p class="project-description">
+              An interactive portfolio website.
+            </p>
+          </div>
+
+          <div class="project-card">
+            <h3 class="project-title">Project 3</h3>
+            <p class="project-description">
+              A mobile-friendly booking website.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+
+        <form id="contact-form">
+          <label class="form-label">Name:</label>
+          <input type="text" class="form-input" required />
+
+          <label class="form-label">Email:</label>
+          <input type="email" class="form-input" required />
+
+          <label class="form-label">Message:</label>
+          <textarea class="form-input" required></textarea>
+
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="footer">
+      <p class="footer-text">© 2024 John Doe. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
