@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Using Datalist</title>
+  </head>
+  <body>
+    <h2>Select Your Favorite Fruit</h2>
+
+    <form>
+      <label for="fruits">Choose a fruit:</label>
+
+      <input
+        type="text"
+        list="fruit-options"
+        id="fruits"
+        name="fruits"
+        placeholder="Type or select a fruit"
+      />
+
+      <datalist id="fruit-options">
+        <option value="Apple"></option>
+        <option value="Banana"></option>
+        <option value="Cherry"></option>
+        <option value="Mango"></option>
+        <option value="Orange"></option>
+      </datalist>
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
